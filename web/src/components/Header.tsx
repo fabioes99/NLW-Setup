@@ -23,7 +23,7 @@ export function Header() {
           className="border border-violet-500 font-semibold rounded-lg px-6 py-4 flex items-center gap-3 hover:border-violet-300"
         >
           <Plus size={20} className="text-violet-500" />
-          Novo h·bito
+          Novo h√°bito
         </Dialog.Trigger>
 
         <Dialog.Portal>
@@ -35,7 +35,7 @@ export function Header() {
             </Dialog.Close>
 
             <Dialog.Title className="text-3xl leading-tight font-extrabold">
-              Criar h·bito
+              Criar h√°bito
             </Dialog.Title>
 
            <NewHabitForm />
